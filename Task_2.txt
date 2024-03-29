@@ -1,0 +1,23 @@
+Q.1 - Wrie a blog on the difference between document and window objects.
+
+Document:-
+	The document object represents the HTML document displayed in the browser window. It provides access to all the elements and content on the page, including text, images, links, and forms. The document object is a property of the window object, and it can be accessed using the window.document or simply document.
+	
+Some of the properties and methods of the document object include:
+
+	Accessing Properties- Use document.title to modify the page title, document.body to manipulate the main content area, and document.getElementById to target specific elements.
+
+	Manipulation Methods- The document object grants you control over your content. Add, remove, or alter elements using methods like createElement, appendChild, and removeChild.
+
+	Event Handling- Listen for user interactions, like clicks or key presses, through event listeners attached to specific elements within the document.
+
+Window:-
+	The window object is the global object in a web browser. It represents the browser window and contains all the properties and methods that control the behavior of the browser. The window object is automatically created when a new browser window is opened, and it can be accessed from any script on the page.
+	
+Some of the properties and methods of the window object include:
+
+	Global Navigation: Navigate to different URLs using window.location.href. Access external resources with window.open.
+
+	Browser Information: Gain insights into the user’s browser dimensions, scroll position, and other environmental details through properties like window.innerWidth and window.pageYOffset.
+
+	User Interaction: Capture global events like window.resize and window.unload to respond to user actions beyond specific elements.
